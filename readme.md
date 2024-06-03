@@ -24,7 +24,7 @@ This widget is particularly useful for users who need to track the value of Inte
 
 2. **Add the Script to Scriptable:**
    - Open Scriptable and tap on the '+' icon to create a new script.
-   - Copy the entire JavaScript code provided above and paste it into the new script area in Scriptable.
+   - Copy the entire JavaScript code in the ```main.js``` in this repo provided above and paste it into the new script area in Scriptable.
    - Name the script `XDR Reward Converter`.
 
 3. **Configure the XDR Amount:**
