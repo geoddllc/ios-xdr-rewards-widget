@@ -4,7 +4,7 @@ This script for iOS devices uses the Scriptable app to fetch the current XDR to 
 
 ## Motivation
 
-This widget is particularly useful for users who need to track the value of Internet Computer Protocol (ICP) rewards in USD, especially considering the potential volatility in conversion rates due to changes in the moving average, which can affect operational expenditure calculations.
+This widget is particularly useful for users who need to track the value of XDR rewards in USD, especially considering the potential volatility in conversion rates due to changes in the moving average, which can affect operational expenditure calculations.
 
 ## Features
 
