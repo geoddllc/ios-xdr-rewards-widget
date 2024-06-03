@@ -9,7 +9,7 @@ This widget is particularly useful for users who need to track the value of Inte
 ## Features
 
 - Fetch current XDR to ICP conversion rates.
-- Fetch current ICP to USD conversion rates.
+- Fetch current ICP to USD conversion levels.
 - Display the USD equivalent of a predefined XDR amount in a home screen widget.
 
 ## Prerequisites
@@ -25,11 +25,15 @@ This widget is particularly useful for users who need to track the value of Inte
 2. **Add the Script to Scriptable:**
    - Open Scriptable and tap on the '+' icon to create a new script.
    - Copy the entire JavaScript code provided above and paste it into the new script area in Scriptable.
-   - Name the script `ICP Reward Converter`.
+   - Name the script `XDR Reward Converter`.
 
 3. **Configure the XDR Amount:**
-   - Edit the script to change the XDR amount from which to calculate the USD equivalent.
-   - Navigate to line 21 of the script and change the `xdrAmount` value from `0` to your desired amount.
+   - Edit the script to change the XDR amount to reflect the total amount of XDR to be received as remuneration.
+   - Navigate to line 21 of the script and modify the `xdrAmount` variable:
+     ```javascript
+     const xdrAmount = 0;  // Change 0 to the total XDR amount received.
+     ```
+   - Replace `0` with the specific XDR amount you expect to receive.
 
 4. **Run the Script:**
    - Tap the 'Play' button to test the script inside Scriptable.
@@ -38,7 +42,7 @@ This widget is particularly useful for users who need to track the value of Inte
 5. **Add Widget to Home Screen:**
    - Exit Scriptable and enter 'jiggle mode' on your iOS device by pressing and holding an app icon.
    - Tap the '+' icon in the upper-left corner and scroll down to select Scriptable.
-   - Choose the small widget size, select the `ICP Reward Converter` script, then tap 'Add Widget'.
+   - Choose the small widget size, select the `XDR Reward Converter` script, then tap 'Add Widget'.
    - Place the widget on your home screen as desired.
 
 6. **Update Widget:**
@@ -46,5 +50,5 @@ This widget is particularly useful for users who need to track the value of Inte
 
 ## Conclusion
 
-This widget provides a simple and effective way to monitor the value of XDR / USD rewards in real time, directly from your iOS home screen, aiding in financial and operational planning.
+This widget provides a simple and effective way to monitor the value of XDR rewards in real time, directly from your iOS home screen, aiding in financial and operational planning.
 
